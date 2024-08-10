@@ -1,0 +1,44 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+/* styles.css */
+.game-board {
+  display: grid;
+  grid-template-columns: repeat(10, 40px);
+}
+
+button {
+  width: 40px;
+  height: 40px;
+  font-size: 20px;
+  background-color: #ddd;
+  border: 1px solid #888;
+  cursor: pointer;
+}
+
+
+.blackbutton {
+  width: 40px;
+  height: 40px;
+  font-size: 20px;
+  background-color: #ddd;
+  border: 1px solid #888;
+  cursor: pointer;
+  background-color: black;
+}
+
+button.blank {
+  background-color: black;
+}
+
+button.mine {
+  background-size: cover;
+  background-color: red;
+}
+
+button.flag {
+  background-size: cover;
+  background-color: blue;
+}
